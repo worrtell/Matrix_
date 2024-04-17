@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class WrongMatrixException {
+public class WrongMatrixException extends Exception {
+    public WrongMatrixException() {
+        super();
+    }
 }
